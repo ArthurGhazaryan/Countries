@@ -28,7 +28,7 @@ input{
 }
 
 ::placeholder{
-    color: black;
+    color: rgb(47, 0, 156);
 }
 
 #left1{
@@ -138,9 +138,17 @@ input{
 
 button{
     position: absolute;
-    right: 45%;
-    width: 100px;
+    right: 43%;
+    width: 150px;
     top: 700px;
     padding: 15px;
     font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgb(0, 0, 0);
+    size: 200%;
+    font-size: 20px;
+    box-shadow: 3px 3px 3px 3px;
 }
