@@ -138,6 +138,9 @@ input{
 
 button{
     position: absolute;
+    background-color: rgb(186, 186, 186);
+    color: rgb(47, 0, 156);
+    border-radius: 25%;
     right: 43%;
     width: 150px;
     top: 700px;
@@ -147,7 +150,6 @@ button{
 }
 
 button:hover{
-    color: rgb(0, 0, 0);
     size: 200%;
     font-size: 20px;
     box-shadow: 3px 3px 3px 3px;
