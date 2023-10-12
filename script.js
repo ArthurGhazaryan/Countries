@@ -108,19 +108,18 @@ function start(){
             document.getElementById('right7').backgroundColor = 'red'
         }
 
-        if(quality <= 6){
+        if(result <= 6){
             quality = 'deficent'
             document.getElementById('score').color = 'red'
             document.getElementById('answer').color = 'red'
-        }else if(quality >6 && quality <= 18){
+        }else if(result >6 && quality <= 18){
             quality = 'good'
             document.getElementById('score').color = 'orange'
             document.getElementById('answer').color = 'orange'
         }
-        else{
-            quality = 'excellent'
-            document.getElementById('score').color = 'yellow'
-            document.getElementById('score').color = 'yellow'
+        else{result = 'excellent'
+             document.getElementById('score').color = 'yellow'
+             document.getElementById('score').color = 'yellow'
         }
         document.getElementById('score').innerHTML = result
         document.getElementById('answer').innerHTML = quality
