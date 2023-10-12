@@ -117,7 +117,7 @@ function start(){
             document.getElementById('score').color = 'orange'
             document.getElementById('answer').color = 'orange'
         }
-        else if(result >18 && result <22){
+        else if(result >18 && result <=30){
             quality = 'excellent'
             document.getElementById('score').color = 'yellow'
             document.getElementById('score').color = 'yellow'
