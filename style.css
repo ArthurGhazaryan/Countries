@@ -19,6 +19,7 @@ body{
 
 input{
     position: absolute;
+    font-size: 21px;
     width: 200px;
     background-color: rgb(192, 192, 192);
     color: rgb(0, 0, 0);
@@ -32,105 +33,90 @@ input{
 }
 
 #left1{
-    font-size: 20px;
     padding: 35px;
     top: 5px;
     right: 42%;
 }
 
 #left2{
-    font-size: 22px;
     padding: 30px;
     top: 35px;
     right: 60%;
 }
 
 #left3{
-    font-size: 20px;
     padding: 30px;
     top: 125px;
     right: 73%;
 }
 
 #left4{
-    font-size: 20px;
     padding: 30px;
     top: 240px;
     right: 81%;
 }
 
 #left5{
-    font-size: 20px;
     padding: 30px;
     top: 360px;
     right: 83%;
 }
 
 #left6{
-    font-size: 20px;
     padding: 30px;
     top: 478px;
     right: 79%;
 }
 
 #left7{
-    font-size: 20px;
     padding: 30px;
     top: 580px;
     right: 71%;
 }
 
 #left8{
-    font-size: 20px;
     padding: 30px;
     top: 660px;
     right: 57%;
 }
 
 #right1{
-    font-size: 22px;
     padding: 30px;
     top: 35px;
     left: 59%;
 }
 
 #right2{
-    font-size: 22px;
     padding: 30px;
     top: 115px;
     left: 72%;
 }
 
 #right3{
-    font-size: 22px;
     padding: 30px;
     top: 220px;
     left: 80%;
 }
 
 #right4{
-    font-size: 22px;
     padding: 30px;
     top: 340px;
     left: 83%;
 }
 
 #right5{
-    font-size: 22px;
     padding: 30px;
     top: 460px;
     left: 80%;
 }
 
 #right6{
-    font-size: 22px;
     padding: 30px;
     top: 569px;
     left: 72%;
 }
 
 #right7{
-    font-size: 22px;
     padding: 30px;
     top: 656px;
     left: 58%;
@@ -138,19 +124,45 @@ input{
 
 button{
     position: absolute;
-    background-color: rgb(186, 186, 186);
+    background-color: rgb(154, 154, 154);
     color: rgb(47, 0, 156);
-    border-radius: 25%;
+    border-radius: 20px;
     right: 43%;
     width: 150px;
     top: 700px;
     padding: 15px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 
 button:hover{
     size: 200%;
     font-size: 20px;
-    box-shadow: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+#score{
+    font-size: 22px;
+    text-align: center;
+    padding: 11px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(90, 202, 183);
+    position: absolute;
+    top: 400px;
+    right: 520px;
+    border-radius: 20px;
+}
+
+#answer{
+    font-size: 22px;
+    text-align: center;
+    padding: 11px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(90, 202, 183);
+    position: absolute;
+    top: 500px;
+    right: 520px;
+    border-radius: 20px;
 }
