@@ -112,14 +112,15 @@ function start(){
             quality = 'deficent'
             document.getElementById('score').color = 'red'
             document.getElementById('answer').color = 'red'
-        }else if(result >6 && quality <= 18){
+        }else if(result >6 && result <= 18){
             quality = 'good'
             document.getElementById('score').color = 'orange'
             document.getElementById('answer').color = 'orange'
         }
-        else{result = 'excellent'
-             document.getElementById('score').color = 'yellow'
-             document.getElementById('score').color = 'yellow'
+        else if(result >18 && result <22){
+            quality = 'excellent'
+            document.getElementById('score').color = 'yellow'
+            document.getElementById('score').color = 'yellow'
         }
         document.getElementById('score').innerHTML = result
         document.getElementById('answer').innerHTML = quality
