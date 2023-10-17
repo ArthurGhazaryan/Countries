@@ -21,91 +21,91 @@ function start(){
 
         if(l1 == 'Yerevan'){
             result+=2
-            document.getElementById('left1').backgroundColor = 'green'
+            document.getElementById('left1').style.backgroundColor = 'green'
         }else{
-            document.getElementById('left1').backgroundColor = 'red'
+            document.getElementById('left1').style.backgroundColor = 'red'
         }
         if(l2 == 'Buenos Aires'){
             result+=2
-            document.getElementById('left2').backgroundColor = 'green'
+            document.getElementById('left2').style.backgroundColor = 'green'
         }else{
-            document.getElementById('left2').backgroundColor = 'red'
+            document.getElementById('left2').style.backgroundColor = 'red'
         }
         if(l3 == 'Tokyo'){
             result+=2
-            document.getElementById('left3').backgroundColor = 'green'
+            document.getElementById('left3').style.backgroundColor = 'green'
         }else{
-            document.getElementById('left3').backgroundColor = 'red'
+            document.getElementById('left3').style.backgroundColor = 'red'
         }
         if(l4 == 'Paris'){
             result+=2
-            document.getElementById('left4').backgroundColor = 'green'
+            document.getElementById('left4').style.backgroundColor = 'green'
         }else{
-            document.getElementById('left4').backgroundColor = 'red'
+            document.getElementById('left4').style.backgroundColor = 'red'
         }
         if(l5 == 'Oslo'){
             result+=2
-            document.getElementById('left5').backgroundColor = 'green'
+            document.getElementById('left5').style.backgroundColor = 'green'
         }else{
-            document.getElementById('left5').backgroundColor = 'red'
+            document.getElementById('left5').style.backgroundColor = 'red'
         }
         if(l6 == 'Berlin'){
             result+=2
-            document.getElementById('left6').backgroundColor = 'green'
+            document.getElementById('left6').style.backgroundColor = 'green'
         }else{
-            document.getElementById('left6').backgroundColor = 'red'
+            document.getElementById('left6').style.backgroundColor = 'red'
         }
         if(l7 == 'Lisbon'){
             result+=2
-            document.getElementById('left7').backgroundColor = 'green'
+            document.getElementById('left7').style.backgroundColor = 'green'
         }else{
-            document.getElementById('left7').backgroundColor = 'red'
+            document.getElementById('left7').style.backgroundColor = 'red'
         }
         if(l8 == 'London'){
             result+=2
-            document.getElementById('left8').backgroundColor = 'green'
+            document.getElementById('left8').style.backgroundColor = 'green'
         }else{
-            document.getElementById('left8').backgroundColor = 'red'
+            document.getElementById('left8').style.backgroundColor = 'red'
         }
         if(r1 == 'Seul'){
             result+=2
-            document.getElementById('right1').backgroundColor = 'green'
+            document.getElementById('right1').style.backgroundColor = 'green'
         }else{
-            document.getElementById('right1').backgroundColor = 'red'
+            document.getElementById('right1').style.backgroundColor = 'red'
         }
         if(r2 == 'Stokholm'){
             result+=2
-            document.getElementById('right2').backgroundColor = 'green'
+            document.getElementById('right2').style.backgroundColor = 'green'
         }else{
-            document.getElementById('right2').backgroundColor = 'red'
+            document.getElementById('right2').style.backgroundColor = 'red'
         }
         if(r3 == 'Ottava'){
             result+=2
-            document.getElementById('right3').backgroundColor = 'green'
+            document.getElementById('right3').style.backgroundColor = 'green'
         }else{
-            document.getElementById('right3').backgroundColor = 'red'
+            document.getElementById('right3').style.backgroundColor = 'red'
         }if(r4 == 'Brazil'){
             result+=2
-            document.getElementById('right4').backgroundColor = 'green'
+            document.getElementById('right4').style.backgroundColor = 'green'
         }else{
-            document.getElementById('right4').backgroundColor = 'red'
+            document.getElementById('right4').style.backgroundColor = 'red'
         }if(r5 == 'Madrid'){
             result+=2
-            document.getElementById('right5').backgroundColor = 'green'
+            document.getElementById('right5').style.backgroundColor = 'green'
         }else{
-            document.getElementById('right5').backgroundColor = 'red'
+            document.getElementById('right5').style.backgroundColor = 'red'
         }
         if(r6 == 'Rome'){
             result+=2
-            document.getElementById('right6').backgroundColor = 'green'
+            document.getElementById('right6').style.backgroundColor = 'green'
         }else{
-            document.getElementById('right6').backgroundColor = 'red'
+            document.getElementById('right6').style.backgroundColor = 'red'
         }
         if(r7 == 'Bern'){
             result+=2
-            document.getElementById('right7').backgroundColor = 'green'
+            document.getElementById('right7').style.backgroundColor = 'green'
         }else{
-            document.getElementById('right7').backgroundColor = 'red'
+            document.getElementById('right7').style.backgroundColor = 'red'
         }
 
         if(result <= 6){
