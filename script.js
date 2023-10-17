@@ -31,7 +31,7 @@ function start(){
         }else{
             document.getElementById('left2').backgroundColor = 'red'
         }
-        if(l3 == 'Tokio'){
+        if(l3 == 'Tokyo'){
             result+=2
             document.getElementById('left3').backgroundColor = 'green'
         }else{
@@ -84,7 +84,7 @@ function start(){
             document.getElementById('right3').backgroundColor = 'green'
         }else{
             document.getElementById('right3').backgroundColor = 'red'
-        }if(r4 == 'Brasil'){
+        }if(r4 == 'Brazil'){
             result+=2
             document.getElementById('right4').backgroundColor = 'green'
         }else{
